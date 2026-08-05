@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Text.Json;
 
 namespace DeviceSimulator.API.Data
 {
@@ -12,13 +13,18 @@ namespace DeviceSimulator.API.Data
 				.IsRequired()
 				.HasMaxLength(100);
 			builder.Property(x => x.Type)
+				.HasConversion<string>()
 				.IsRequired();
 			builder.Property(x=>x.Status)
+				.HasConversion<string>()
 				.IsRequired();
 
 			builder.OwnsOne(x => x.State, state =>
 			{
 				state.Property(x => x.Values)
+					.HasConversion(
+						v => JsonSerializer.Serialize(v, (JsonSerializerOptions?)null),
+						v => JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(v, (JsonSerializerOptions?)null)!)
 					.HasColumnType("jsonb");
 			});
 
