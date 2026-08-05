@@ -1,6 +1,4 @@
-﻿using DeviceSimulator.API.Devices.Domain.Enums;
-
-namespace DeviceSimulator.API.Devices.Domain.Models
+﻿namespace DeviceSimulator.API.Devices.Domain.Models
 {
 	public abstract class Device
 	{
@@ -12,10 +10,9 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 
 		public DeviceStatus Status { get; protected set; }
 
-		public DeviceState State { get; protected set; } = new();
+		public DeviceState State { get; protected set; }= default!;
 
 		public List<Capability> Capabilities { get; protected set; } = [];
-		//public abstract void Execute(DeviceCommandDto command);
 
 		protected Device()
 		{
@@ -50,5 +47,10 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 			State = state;
 			Capabilities = capabilities;
 		}
+		public bool HasCapability(CapabilityType type)
+		{
+			return Capabilities.Any(x=>x.Type == type);
+		}
+		//public abstract void Execute(DeviceCommandDto command);
 	}
 }
