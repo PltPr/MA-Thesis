@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeviceSimulator", "DeviceSi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceSimulator.API", "DeviceSimulator\DeviceSimulator.API\DeviceSimulator.API.csproj", "{444C3BA7-57B4-4713-A615-F1CCE3550184}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{D956FC34-2CA5-4100-9031-5F016FF7D694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{444C3BA7-57B4-4713-A615-F1CCE3550184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444C3BA7-57B4-4713-A615-F1CCE3550184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{444C3BA7-57B4-4713-A615-F1CCE3550184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{444C3BA7-57B4-4713-A615-F1CCE3550184} = {D5DD7A97-689A-4D0C-943F-D7DAC80621DE}
+		{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A} = {D956FC34-2CA5-4100-9031-5F016FF7D694}
 	EndGlobalSection
 EndGlobal
