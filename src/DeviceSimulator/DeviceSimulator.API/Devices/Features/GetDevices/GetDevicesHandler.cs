@@ -19,7 +19,7 @@ namespace DeviceSimulator.API.Devices.Features.GetDevices
 		}
 		public async Task<GetDevicesResult> Handle(GetDevicesQuery query, CancellationToken cancellationToken)
 		{
-			var deviceEntities = await _context.Devices.ToListAsync(cancellationToken);
+			var deviceEntities = await _context.Devices.AsNoTracking().ToListAsync(cancellationToken);
 			var devices = deviceEntities.Select(x=>_factory.Create(x)).ToList();
 			return new GetDevicesResult(devices);
 		}

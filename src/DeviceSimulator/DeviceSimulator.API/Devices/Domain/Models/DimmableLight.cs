@@ -2,7 +2,7 @@
 {
 	public class DimmableLight :Light
 	{
-		private DimmableLight(
+		protected DimmableLight(
 			Guid id,
 			string name,
 			DeviceType type,
