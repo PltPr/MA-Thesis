@@ -1,4 +1,5 @@
 ﻿using DeviceSimulator.API.Data;
+using DeviceSimulator.API.Devices.Domain.Models;
 using System.Xml.Linq;
 
 namespace DeviceSimulator.API.Extensions

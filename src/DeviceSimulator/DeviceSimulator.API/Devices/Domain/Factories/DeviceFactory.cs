@@ -1,4 +1,6 @@
-﻿namespace DeviceSimulator.API.Devices.Domain.Factories
+﻿using DeviceSimulator.API.Data;
+
+namespace DeviceSimulator.API.Devices.Domain.Factories
 {
 	public class DeviceFactory :IDeviceFactory
 	{
@@ -16,7 +18,7 @@
 					Light.Create(id, name, status, state, capabilities),
 
 				DeviceType.DimmableLight =>
-					Light.Create(id, name, status, state, capabilities),
+					DimmableLight.Create(id, name, status, state, capabilities),
 
 				DeviceType.Blind =>
 					Light.Create(id, name, status, state, capabilities),
@@ -24,6 +26,17 @@
 				_ => throw new NotSupportedException(
 					$"Unsupported device type: {type}")
 			};
+		}
+
+		public Device Create(DeviceEntity entity)
+		{
+			return Create(
+				entity.Id,
+				entity.Name,
+				entity.Type,
+				entity.Status,
+				entity.State,
+				entity.Capabilities);
 		}
 	}
 }

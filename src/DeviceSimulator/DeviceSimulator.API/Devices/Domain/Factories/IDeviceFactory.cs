@@ -1,4 +1,6 @@
-﻿namespace DeviceSimulator.API.Devices.Domain.Factories
+﻿using DeviceSimulator.API.Data;
+
+namespace DeviceSimulator.API.Devices.Domain.Factories
 {
 	public interface IDeviceFactory
 	{
@@ -9,5 +11,6 @@
 			DeviceStatus status,
 			DeviceState state,
 			List<Capability> capabilities);
+		Device Create(DeviceEntity entity);
 	}
 }

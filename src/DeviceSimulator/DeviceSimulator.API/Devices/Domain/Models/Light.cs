@@ -3,14 +3,15 @@
 	public class Light : Device
 	{
 
-		private Light(
+		protected Light(
 			Guid id,
 			string name,
+			DeviceType type,
 			DeviceStatus status,
 			DeviceState state,
 			List<Capability> capabilities
 			) 
-			: base(id, name, DeviceType.Light, status, state, capabilities)
+			: base(id, name, type, status, state, capabilities)
 		{
 
 		}
@@ -19,6 +20,7 @@
 		{
 			return new Light(id,
 				name,
+				DeviceType.Light,
 				status,
 				state,
 				capabilities
