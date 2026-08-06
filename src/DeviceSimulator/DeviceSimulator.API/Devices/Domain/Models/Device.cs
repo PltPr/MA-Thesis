@@ -1,4 +1,6 @@
-﻿namespace DeviceSimulator.API.Devices.Domain.Models
+﻿using System.Text.Json;
+
+namespace DeviceSimulator.API.Devices.Domain.Models
 {
 	public abstract class Device
 	{
@@ -51,6 +53,6 @@
 		{
 			return Capabilities.Any(x=>x.Type == type);
 		}
-		//public abstract void Execute(DeviceCommandDto command);
+		public abstract void SetCapability(CapabilityType type, JsonElement value);
 	}
 }

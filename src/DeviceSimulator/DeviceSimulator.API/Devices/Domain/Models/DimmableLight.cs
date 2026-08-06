@@ -1,4 +1,6 @@
-﻿namespace DeviceSimulator.API.Devices.Domain.Models
+﻿using System.Text.Json;
+
+namespace DeviceSimulator.API.Devices.Domain.Models
 {
 	public class DimmableLight :Light
 	{
@@ -25,6 +27,20 @@
 				state,
 				capabilities
 			);
+		}
+
+		public override void SetCapability(CapabilityType type, JsonElement value)
+		{
+			switch(type)
+			{
+				case CapabilityType.Brightness:
+					SetBrightness(value.GetInt32());
+					break;
+
+				default:
+					base.SetCapability(type, value);
+					break;
+			}
 		}
 
 		public void SetBrightness(int brightness)

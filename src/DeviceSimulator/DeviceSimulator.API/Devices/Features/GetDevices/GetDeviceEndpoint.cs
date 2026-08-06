@@ -1,7 +1,4 @@
-﻿
-using DeviceSimulator.API.Data;
-
-namespace DeviceSimulator.API.Devices.Features.GetDevices
+﻿namespace DeviceSimulator.API.Devices.Features.GetDevices
 {
 	public record GetDevicesResponse(IEnumerable<Device> Devices);
 	public class GetDeviceEndpoint : ICarterModule

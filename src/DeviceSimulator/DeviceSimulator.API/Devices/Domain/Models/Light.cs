@@ -1,4 +1,6 @@
-﻿namespace DeviceSimulator.API.Devices.Domain.Models
+﻿using System.Text.Json;
+
+namespace DeviceSimulator.API.Devices.Domain.Models
 {
 	public class Light : Device
 	{
@@ -26,6 +28,23 @@
 				capabilities
 			);
 		}
+
+		public override void SetCapability(CapabilityType type, JsonElement value)
+		{
+			switch(type)
+			{
+				case CapabilityType.Power:
+					if (value.GetBoolean()) TurnOn();
+					else TurnOff();
+					break;
+
+				default:
+					throw new NotSupportedException(
+						$"Capability {type} is not supported by Light.");
+					
+			}
+		}
+
 		public void TurnOn()
 		{
 			State.Set(CapabilityType.Power,true);

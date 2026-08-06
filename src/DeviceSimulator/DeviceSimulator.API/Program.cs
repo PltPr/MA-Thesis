@@ -1,3 +1,4 @@
+using BuildingBlocks.Exceptions.Handler;
 using Carter;
 using DeviceSimulator.API.Data;
 using DeviceSimulator.API.Devices.Domain.Factories;
@@ -16,6 +17,8 @@ builder.Services.AddMediatR(config =>
 	config.RegisterServicesFromAssembly(typeof(Program).Assembly);
 });
 
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
 builder.Services.AddCarter();
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
@@ -26,6 +29,8 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 builder.Services.AddScoped<IDeviceFactory, DeviceFactory>();
 
 var app = builder.Build();
+
+app.UseExceptionHandler(opts => { });
 
 app.MapCarter();
 
