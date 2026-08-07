@@ -3,24 +3,43 @@
   "WorkspaceRootPath": "C:\\MA-Thesis\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\getdevices\\getdeviceendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\getdevices\\getdeviceendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\data\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\data\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\e-shop\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\factories\\devicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\factories\\devicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\exceptions\\internalserverexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\exceptions\\internalserverexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\devicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\devicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\getdevices\\getdeviceendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\getdevices\\getdeviceendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 724,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,33 +61,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T09:58:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DeviceFactory.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T22:19:50.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceConfiguration.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T22:07:33.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeviceState.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T22:02:31.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "InternalServerException.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:16:39.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T18:16:39.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "BadRequestException.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:00:26.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T18:00:26.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "GetDeviceEndpoint.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\GetDevices\\GetDeviceEndpoint.cs",
               "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\GetDevices\\GetDeviceEndpoint.cs",
@@ -76,8 +143,7 @@
               "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\GetDevices\\GetDeviceEndpoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T17:56:40.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T17:56:40.236Z"
             },
             {
               "$type": "Document",
@@ -87,23 +153,21 @@
               "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Program.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Program.cs",
               "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T17:55:39.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T17:55:39.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CustomExceptionHandler.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAADYAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T17:11:09.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T17:11:09.31Z"
             }
           ]
         },
@@ -122,6 +186,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2dbf579f-a909-469b-9faa-882209160d55",
+        "Display": 1,
+        "X": -579,
+        "Y": 346,
+        "Width": 1537,
+        "Height": 730,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\e-shop\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "..\\..\\e-shop\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\e-shop\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "..\\..\\e-shop\\src\\BuildingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T09:22:37.482Z",
+              "EditorCaption": ""
             }
           ]
         }
