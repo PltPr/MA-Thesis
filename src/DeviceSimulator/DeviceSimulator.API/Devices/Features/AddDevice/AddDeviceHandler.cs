@@ -1,12 +1,33 @@
 ﻿using DeviceSimulator.API.Data;
 using DeviceSimulator.API.Devices.Domain.Factories;
 using DeviceSimulator.API.Extensions;
+using FluentValidation;
 using System.Text.Json;
 
 namespace DeviceSimulator.API.Devices.Features.AddDevice
 {
 	public record AddDeviceCommand(string Name,DeviceType Type,List<Capability>Capabilities ) :ICommand<AddDeviceResult>;
 	public record AddDeviceResult(Guid Id);
+
+	public class AddDeviceCommandValidator : AbstractValidator<AddDeviceCommand>
+	{
+		public AddDeviceCommandValidator()
+		{
+			RuleFor(x => x.Name).NotEmpty().WithMessage("Name should not be empty.");
+			RuleFor(x=>x.Type).IsInEnum().WithMessage("Invalid device type.");
+			RuleFor(x=>x.Capabilities).NotEmpty().WithMessage("Device must have at least one capability.");
+			RuleForEach(x => x.Capabilities)
+				.SetValidator(new CapabilityValidator());
+		}
+	}
+	public class CapabilityValidator : AbstractValidator<Capability>
+	{
+		public CapabilityValidator()
+		{
+			RuleFor(x => x.Type).IsInEnum().WithMessage("Invalid capability type.");
+			RuleFor(x => x.Range).NotNull().When(x => x.Type == CapabilityType.Brightness).WithMessage($"One or more capabilities required range.");
+		}
+	}
 
 	public class AddDeviceHandler : ICommandHandler<AddDeviceCommand, AddDeviceResult>
 	{

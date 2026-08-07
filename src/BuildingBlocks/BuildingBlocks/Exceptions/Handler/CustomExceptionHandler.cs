@@ -26,6 +26,11 @@ namespace BuildingBlocks.Exceptions.Handler
 				exception.GetType().Name,
 				StatusCodes.Status404NotFound
 				),
+				ValidationException validationEx=> (
+				validationEx.Errors.First().ErrorMessage,
+				exception.GetType().Name,
+				StatusCodes.Status400BadRequest
+				),
 				_=>(
 				exception.Message,
 				exception.GetType().Name,
@@ -44,7 +49,7 @@ namespace BuildingBlocks.Exceptions.Handler
 			
 			if(exception is ValidationException validationException)
 			{
-				problemDetails.Extensions.Add("validationErrors", validationException.Errors);
+				problemDetails.Extensions.Add("validationErrors", validationException.Errors.First().PropertyName);
 			}
 			else if (exception is InternalServerException internalServerException && internalServerException.Description is not null)
 			{

@@ -1,12 +1,23 @@
 ﻿
 using DeviceSimulator.API.Data;
 using DeviceSimulator.API.Devices.Domain.Factories;
+using FluentValidation;
 using System.Text.Json;
 
 namespace DeviceSimulator.API.Devices.Features.SetDeviceState
 {
 	public record SetDeviceCapabilityCommand(Guid DeviceId, CapabilityType Type, JsonElement Value) : ICommand<SetDeviceCapabilityResult>;
 	public record SetDeviceCapabilityResult(bool IsSuccess);
+
+	public class SetDeviceCapabilityCommandValidator :AbstractValidator<SetDeviceCapabilityCommand>
+	{
+		public SetDeviceCapabilityCommandValidator()
+		{
+			RuleFor(x => x.DeviceId).NotEmpty().WithMessage("DeviceId should not be empty.");
+			RuleFor(x => x.Type).IsInEnum().WithMessage("Invalid capability type.");
+			RuleFor(x => x.Value).Must(x => x.ValueKind != JsonValueKind.Undefined).WithMessage("Value is required");
+		}
+	}
 	public class SetDeviceCapabilityHandler : ICommandHandler<SetDeviceCapabilityCommand, SetDeviceCapabilityResult>
 	{
 		private readonly ApplicationDBContext _context;
