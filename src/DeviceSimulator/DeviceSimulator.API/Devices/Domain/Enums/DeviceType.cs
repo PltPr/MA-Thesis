@@ -4,6 +4,7 @@
 	{
 		Light,
 		DimmableLight,
-		Blind
+		Blind,
+		Thermometer
 	}
 }

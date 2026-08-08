@@ -30,7 +30,7 @@ namespace DeviceSimulator.API.Devices.Features.SetDeviceState
 		public async Task<SetDeviceCapabilityResult> Handle(SetDeviceCapabilityCommand command, CancellationToken cancellationToken)
 		{
 			var deviceEntity = await _context.Devices.FindAsync([command.DeviceId],cancellationToken);
-			if (deviceEntity == null) throw new KeyNotFoundException($"Device not found, {command.DeviceId}");
+			if (deviceEntity == null) throw new NotFoundException("Device",command.DeviceId);
 
 			var device = _factory.Create(deviceEntity);
 			device.SetCapability(command.Type, command.Value);

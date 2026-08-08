@@ -4,6 +4,7 @@
 	{
 		Power,
 		Brightness,
-		Position
+		Position,
+		Temperature
 	}
 }

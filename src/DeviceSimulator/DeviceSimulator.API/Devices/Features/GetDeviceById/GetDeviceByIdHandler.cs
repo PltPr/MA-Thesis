@@ -20,7 +20,7 @@ namespace DeviceSimulator.API.Devices.Features.GetDeviceById
 		{
 			var deviceEntity = await _context.Devices.AsNoTracking().FirstOrDefaultAsync(x=>x.Id==query.Id);
 			if (deviceEntity == null)
-				throw new ArgumentException("Not Found");
+				throw new NotFoundException("Device",query.Id);
 			var result = _factory.Create(deviceEntity);
 
 			return new GetDeviceByIdResult(result);

@@ -69,6 +69,8 @@ namespace DeviceSimulator.API.Devices.Features.AddDevice
 						JsonSerializer.SerializeToElement(capability.Range!.Min),
 					CapabilityType.Position =>
 						JsonSerializer.SerializeToElement(capability.Range!.Min),
+					CapabilityType.Temperature =>
+						JsonSerializer.SerializeToElement(15),
 					_ => throw new NotSupportedException(
 						$"Unsupported capability {capability.Type}")
 				};
