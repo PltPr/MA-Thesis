@@ -12,7 +12,7 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 			
 		}
 
-		public Blind Create(Guid id, string name, DeviceStatus status, DeviceState state, List<Capability> capabilities)
+		public static Blind Create(Guid id, string name, DeviceStatus status, DeviceState state, List<Capability> capabilities)
 		{
 			return new Blind(id, name, DeviceType.Blind, status, state, capabilities);
 		}

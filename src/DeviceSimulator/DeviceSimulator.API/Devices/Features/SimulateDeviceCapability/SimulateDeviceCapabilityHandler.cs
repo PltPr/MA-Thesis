@@ -20,10 +20,12 @@ namespace DeviceSimulator.API.Devices.Features.SimulateDeviceCapability
 	{
 		private readonly ApplicationDBContext _context;
 		private readonly IDeviceFactory _factory;
-		public SimulateDeviceCapabilityHandler(ApplicationDBContext context,IDeviceFactory factory)
+		private readonly IPublisher _publisher;
+		public SimulateDeviceCapabilityHandler(ApplicationDBContext context,IDeviceFactory factory,IPublisher publisher)
 		{
 			_context = context;
 			_factory = factory;
+			_publisher = publisher;
 		}
 		public async Task<SimulateDeviceCapabilityResult> Handle(SimulateDeviceCapabilityCommand command, CancellationToken cancellationToken)
 		{
@@ -35,10 +37,16 @@ namespace DeviceSimulator.API.Devices.Features.SimulateDeviceCapability
 
 			deviceEntity.State = device.State;
 
-			_context.Entry(deviceEntity)
-				.Property(x => x.State)
+			_context.Entry(deviceEntity.State)
+				.Property(x => x.Values)
 				.IsModified = true;
 			await _context.SaveChangesAsync();
+
+			foreach(var domainEvent in device.DomainEvents)
+			{
+				await _publisher.Publish(domainEvent);
+			}	
+			device.ClearDomainEvents();
 
 			return new SimulateDeviceCapabilityResult(true);
 		}

@@ -3,20 +3,92 @@
   "WorkspaceRootPath": "C:\\MA-Thesis\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\thermometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\thermometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\devicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\devicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\simulatedevicecapability\\simulatedevicecapabilityhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\simulatedevicecapability\\simulatedevicecapabilityhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\events\\eventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\events\\eventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\factories\\devicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\factories\\devicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\simulatedevicecapability\\simulatedevicecapabilityendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\simulatedevicecapability\\simulatedevicecapabilityendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\blind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\blind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\dimmablelight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\dimmablelight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35B2861-4742-4517-A81D-9EEBE590ED08}|docker-compose.dcproj|c:\\ma-thesis\\src\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B35B2861-4742-4517-A81D-9EEBE590ED08}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35B2861-4742-4517-A81D-9EEBE590ED08}|docker-compose.dcproj|c:\\ma-thesis\\src\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B35B2861-4742-4517-A81D-9EEBE590ED08}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\masstransit\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\masstransit\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35B2861-4742-4517-A81D-9EEBE590ED08}|docker-compose.dcproj|c:\\ma-thesis\\src\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B35B2861-4742-4517-A81D-9EEBE590ED08}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\events\\domainevents\\devicestatechangeddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\events\\domainevents\\devicestatechangeddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\events\\integrationevents\\iintegrationeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\events\\integrationevents\\iintegrationeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\events\\integrationevents\\masstransitintegrationeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\events\\integrationevents\\masstransitintegrationeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\events\\deviceregisteredintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\events\\deviceregisteredintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\events\\devicestatechangedintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\events\\devicestatechangedintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\events\\deviceregisteredintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\events\\deviceregisteredintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\events\\iintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\events\\iintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\capability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\capability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\models\\valuerangeintegrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\models\\capabilityintegrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\models\\capabilityintegrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\capability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\capability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\e-shop\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -41,7 +109,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 724,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,58 +121,293 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Program.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Program.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Program.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T15:34:12.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeviceStateChangedDomainEventHandler.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\DomainEvents\\DeviceStateChangedDomainEventHandler.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\DomainEvents\\DeviceStateChangedDomainEventHandler.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\DomainEvents\\DeviceStateChangedDomainEventHandler.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\DomainEvents\\DeviceStateChangedDomainEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T15:27:41.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IIntegrationEvent.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\IIntegrationEvent.cs",
+              "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\IIntegrationEvent.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\IIntegrationEvent.cs",
+              "RelativeToolTip": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\IIntegrationEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T15:24:19.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Thermometer.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Thermometer.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Thermometer.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Thermometer.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Thermometer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T14:31:10.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Blind.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Blind.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Blind.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Blind.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Blind.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T14:29:47.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Light.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Light.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Light.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Light.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Light.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T13:45:58.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SimulateDeviceCapabilityHandler.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityHandler.cs",
               "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityHandler.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityHandler.cs*",
-              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityHandler.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABPAAAAAAAAAA==",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityHandler.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-09T13:31:49.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventDispatcher.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\EventDispatcher.cs",
-              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\EventDispatcher.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\EventDispatcher.cs*",
-              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\EventDispatcher.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DeviceFactory.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Factories\\DeviceFactory.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T12:37:01.16Z",
+              "WhenOpened": "2026-08-09T16:25:10.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DeviceState.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DeviceState.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T14:14:48.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\appsettings.json",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\appsettings.json",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-09T15:57:05.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extension.cs",
+              "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extension.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extension.cs",
+              "RelativeToolTip": "BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T15:51:55.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimulateDeviceCapabilityEndpoint.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityEndpoint.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityEndpoint.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityEndpoint.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SimulateDeviceCapability\\SimulateDeviceCapabilityEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T16:31:36.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DimmableLight.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DimmableLight.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DimmableLight.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DimmableLight.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\DimmableLight.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowCwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T14:26:55.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\MA-Thesis\\src\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-09T16:02:07.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\MA-Thesis\\src\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-08-09T16:02:21.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\MA-Thesis\\src\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-08-09T16:03:18.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MassTransitIntegrationEventPublisher.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\MassTransitIntegrationEventPublisher.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\MassTransitIntegrationEventPublisher.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\MassTransitIntegrationEventPublisher.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\MassTransitIntegrationEventPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T15:20:01.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IIntegrationEventPublisher.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\IIntegrationEventPublisher.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\IIntegrationEventPublisher.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\IIntegrationEventPublisher.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\Events\\IntegrationEvents\\IIntegrationEventPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T15:19:02.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "DeviceStateChangedIntegrationEvent.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceStateChangedIntegrationEvent.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceStateChangedIntegrationEvent.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceStateChangedIntegrationEvent.cs",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceStateChangedIntegrationEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-09T11:23:31.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "DeviceRegisteredIntegrationEvent.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceRegisteredIntegrationEvent.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceRegisteredIntegrationEvent.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceRegisteredIntegrationEvent.cs",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Events\\DeviceRegisteredIntegrationEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T11:20:39.839Z"
+              "WhenOpened": "2026-08-09T11:20:39.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Device.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Device.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Device.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwD4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T13:45:29.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Capability.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T11:18:20.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "ValueRangeIntegrationModel.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Models\\ValueRangeIntegrationModel.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Models\\ValueRangeIntegrationModel.cs",
@@ -116,19 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Capability.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
-              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
-              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Capability.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T11:18:20.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "CapabilityIntegrationModel.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Models\\CapabilityIntegrationModel.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Models\\CapabilityIntegrationModel.cs",
@@ -140,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "Extentions.cs",
               "DocumentMoniker": "C:\\e-shop\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extentions.cs",
               "RelativeDocumentMoniker": "..\\..\\e-shop\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\MassTransit\\Extentions.cs",

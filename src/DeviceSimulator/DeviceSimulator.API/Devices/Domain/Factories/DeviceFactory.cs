@@ -21,7 +21,12 @@ namespace DeviceSimulator.API.Devices.Domain.Factories
 					DimmableLight.Create(id, name, status, state, capabilities),
 
 				DeviceType.Blind =>
-					Light.Create(id, name, status, state, capabilities),
+					Blind.Create(id, name, status, state, capabilities),
+
+				DeviceType.Thermometer =>
+					Thermometer.Create(id, name, status, state, capabilities),
+
+
 
 				_ => throw new NotSupportedException(
 					$"Unsupported device type: {type}")

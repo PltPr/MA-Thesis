@@ -9,5 +9,5 @@ namespace BuildingBlocks.Messaging.Contracts.Events
 		string Type,
 		string Status,
 		IReadOnlyDictionary<string,JsonElement> State,
-		IReadOnlyCollection<CapabilityIntegrationModel> Capabilities);
+		IReadOnlyCollection<CapabilityIntegrationModel> Capabilities) : IIntegrationEvent;
 }

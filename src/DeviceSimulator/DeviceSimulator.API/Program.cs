@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 using FluentValidation;
 using BuildingBlocks.Behaviours;
+using DeviceSimulator.API.Devices.Features.Events.IntegrationEvents;
+using BuildingBlocks.Messaging.MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,8 +32,11 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 });
 
 builder.Services.AddScoped<IDeviceFactory, DeviceFactory>();
+builder.Services.AddScoped<IIntegrationEventPublisher,MassTransitIntegrationEventPublisher>();
 
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
+
+builder.Services.AddMessageBroker(builder.Configuration, typeof(Program).Assembly);
 
 var app = builder.Build();
 

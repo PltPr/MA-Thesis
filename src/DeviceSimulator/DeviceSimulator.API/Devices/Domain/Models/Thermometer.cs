@@ -17,7 +17,7 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 		{
 		}
 
-		public Thermometer Create(Guid id, string name, DeviceStatus status, DeviceState state, List<Capability> capabilities)
+		public static Thermometer Create(Guid id, string name, DeviceStatus status, DeviceState state, List<Capability> capabilities)
 		{
 			return new Thermometer(id,name,DeviceType.Thermometer,status,state,capabilities);
 		}
@@ -32,8 +32,25 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 
 				default:
 					throw new NotSupportedException(
-							$"Capability {type} is not supported by Light.");
+						$"Capability {type} is not supported by thermometer.");
 			}
+		}
+
+		public override void SimulateCapability(CapabilityType type, JsonElement value)
+		{
+			if(!State.HasChanged(type,value)) return;
+			switch (type)
+			{
+				case CapabilityType.Temperature:
+					SimulateTemperature(value.GetDecimal());
+					break;
+				default:
+					throw new NotSupportedException(
+						$"Capability {type} is not supported by thermometer.");
+			}
+			AddDomainEvent(new DeviceStateChangedDomainEvent(
+				Id, type, value));
+
 		}
 
 
