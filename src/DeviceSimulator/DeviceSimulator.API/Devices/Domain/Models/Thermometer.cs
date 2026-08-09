@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using DeviceSimulator.API.Devices.Domain.Events;
+using System.Text.Json;
 
 namespace DeviceSimulator.API.Devices.Domain.Models
 {
@@ -35,13 +36,10 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 			}
 		}
 
+
 		public void SimulateTemperature(decimal temperature)
 		{
-			var accTemp = State.Get<decimal>(CapabilityType.Temperature);
-			if (accTemp == temperature)
-				return;
 			State.Set(CapabilityType.Temperature, temperature);
-			//send event
 		}
 	}
 }

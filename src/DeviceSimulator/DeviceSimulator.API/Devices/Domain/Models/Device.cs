@@ -1,8 +1,10 @@
-﻿using System.Text.Json;
+﻿using DeviceSimulator.API.Devices.Domain.Abstraction;
+using DeviceSimulator.API.Devices.Domain.Events;
+using System.Text.Json;
 
 namespace DeviceSimulator.API.Devices.Domain.Models
 {
-	public abstract class Device
+	public abstract class Device :Aggregation
 	{
 		public Guid Id { get; protected set; }
 
@@ -54,5 +56,13 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 			return Capabilities.Any(x=>x.Type == type);
 		}
 		public abstract void SetCapability(CapabilityType type, JsonElement value);
+		public virtual void SimulateCapability(CapabilityType type, JsonElement value)
+		{
+			if(!State.HasChanged(type,value)) return;
+
+			SetCapability(type, value);
+			AddDomainEvent(new DeviceStateChangedDomainEvent(
+				Id,type,value));
+		}
 	}
 }

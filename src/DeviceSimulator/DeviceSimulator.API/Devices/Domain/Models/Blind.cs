@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using DeviceSimulator.API.Devices.Domain.Events;
+using System.Runtime.InteropServices;
 using System.Text.Json;
 
 namespace DeviceSimulator.API.Devices.Domain.Models

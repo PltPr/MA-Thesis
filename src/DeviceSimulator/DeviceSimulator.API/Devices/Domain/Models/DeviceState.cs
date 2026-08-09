@@ -35,5 +35,13 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 				?? throw new InvalidOperationException(
 					$"Cannot deserialize value for {type}.");
 		}
+		public bool HasChanged(CapabilityType type,JsonElement value)
+		{
+			if(!Values.TryGetValue(type.ToString(), out var current))
+				throw new InvalidOperationException(
+					$"Capability {type} does not exist in device state.");
+
+			return current.GetRawText() != value.GetRawText();
+		}
 	}
 }

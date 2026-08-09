@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using DeviceSimulator.API.Devices.Domain.Events;
+using System.Text.Json;
 
 namespace DeviceSimulator.API.Devices.Domain.Models
 {
@@ -53,5 +54,7 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 		{
 			State.Set(CapabilityType.Power, false);
 		}
+
+		
 	}
 }
