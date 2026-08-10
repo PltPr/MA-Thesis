@@ -39,7 +39,7 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 		{
 			if(!Values.TryGetValue(type.ToString(), out var current))
 				throw new InvalidOperationException(
-					$"Capability {type} does not exist in device state.");
+					$"Capability {type} does not exist in this device state.");
 
 			return current.GetRawText() != value.GetRawText();
 		}

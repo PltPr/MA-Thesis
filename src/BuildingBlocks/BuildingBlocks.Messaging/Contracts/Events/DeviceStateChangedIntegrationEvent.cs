@@ -4,6 +4,6 @@ namespace BuildingBlocks.Messaging.Contracts.Events
 {
 	public record DeviceStateChangedIntegrationEvent(
 		Guid DeviceId,
-		string Capability,
+		string Type,
 		JsonElement Value) :IIntegrationEvent;
 }

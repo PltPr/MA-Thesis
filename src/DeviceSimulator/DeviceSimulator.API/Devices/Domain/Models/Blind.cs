@@ -27,7 +27,7 @@ namespace DeviceSimulator.API.Devices.Domain.Models
 
 				default:
 					throw new NotSupportedException(
-						$"Capability {type} is not supported by Blind.");
+						$"Capability \"{type}\" is not supported by Blind.");
 
 			}
 		}

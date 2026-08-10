@@ -1,5 +1,8 @@
-﻿using DeviceSimulator.API.Data;
+﻿using BuildingBlocks.Messaging.Contracts.Events;
+using BuildingBlocks.Messaging.Contracts.Models;
+using DeviceSimulator.API.Data;
 using DeviceSimulator.API.Devices.Domain.Factories;
+using DeviceSimulator.API.Devices.Features.Events.IntegrationEvents;
 using DeviceSimulator.API.Extensions;
 using FluentValidation;
 using System.Text.Json;
@@ -33,10 +36,12 @@ namespace DeviceSimulator.API.Devices.Features.AddDevice
 	{
 		private readonly ApplicationDBContext _context;
 		private readonly IDeviceFactory _deviceFactory;
-		public AddDeviceHandler(ApplicationDBContext context,IDeviceFactory deviceFactory)
+		private readonly IIntegrationEventPublisher _publisher;
+		public AddDeviceHandler(ApplicationDBContext context,IDeviceFactory deviceFactory,IIntegrationEventPublisher publisher)
 		{
 			_deviceFactory = deviceFactory;
 			_context = context;
+			_publisher = publisher;
 		}
 
 
@@ -50,6 +55,8 @@ namespace DeviceSimulator.API.Devices.Features.AddDevice
 
 			await _context.Devices.AddAsync(deviceEntity);
 			await _context.SaveChangesAsync(cancellationToken);
+
+			await PublishDeviceRegisteredEvent(device,cancellationToken);
 
 			return new AddDeviceResult(id);
 		}
@@ -76,6 +83,23 @@ namespace DeviceSimulator.API.Devices.Features.AddDevice
 				};
 			}
 			return DeviceState.Of(values);
+		}
+
+		private async Task PublishDeviceRegisteredEvent(Device device,CancellationToken cancellationToken)
+		{
+			var integrationEvent = new DeviceRegisteredIntegrationEvent(
+				device.Id,
+				device.Name,
+				device.Type.ToString(),
+				device.Status.ToString(),
+				device.State.Values,
+				device.Capabilities
+					.Select(x => new CapabilityIntegrationModel(
+					x.Type.ToString(),
+					x.Range is null ? null :
+					new ValueRangeIntegrationModel(x.Range.Min, x.Range.Max))).ToList());
+
+			await _publisher.Publish(integrationEvent, cancellationToken);
 		}
 	}
 }
