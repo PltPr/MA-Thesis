@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text.Json;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -36,7 +38,8 @@ namespace DeviceSimulator.API.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Type = table.Column<int>(type: "integer", nullable: false),
                     Range_Min = table.Column<int>(type: "integer", nullable: true),
-                    Range_Max = table.Column<int>(type: "integer", nullable: true)
+                    Range_Max = table.Column<int>(type: "integer", nullable: true),
+                    Options = table.Column<List<JsonElement>>(type: "jsonb[]", nullable: true)
                 },
                 constraints: table =>
                 {

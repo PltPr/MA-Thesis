@@ -31,6 +31,10 @@ namespace DeviceSimulator.API.Data
 			builder.OwnsMany(x => x.Capabilities, capabilities =>
 			{
 				capabilities.OwnsOne(x => x.Range);
+				capabilities.Property(x => x.Type)
+					.HasConversion<string>();
+				capabilities.Property(x => x.Options)
+					.HasColumnType("jsonb");
 			});
 		}
 	}
