@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SmartHome.Application.Data;
 using SmartHome.Domain.Device.Models;
 
 
 namespace SmartHome.Infrastructure.Data
 {
-	public class SmartHomeDbContext :DbContext
+	public class SmartHomeDbContext :DbContext, ISmartHomeDbContext
 	{
 		public SmartHomeDbContext(DbContextOptions<SmartHomeDbContext> options) : base(options)
 		{

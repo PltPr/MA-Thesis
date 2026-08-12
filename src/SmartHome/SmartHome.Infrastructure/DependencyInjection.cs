@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SmartHome.Application.Data;
 using SmartHome.Infrastructure.Data;
 
 namespace SmartHome.Infrastructure
@@ -14,6 +15,8 @@ namespace SmartHome.Infrastructure
 			{
 				options.UseNpgsql(connectionString);
 			});
+
+			services.AddScoped<ISmartHomeDbContext, SmartHomeDbContext>();
 
 			return services;
 		}

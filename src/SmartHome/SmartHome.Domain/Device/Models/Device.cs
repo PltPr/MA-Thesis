@@ -89,7 +89,7 @@ namespace SmartHome.Domain.Device.Models
 
 		public bool HasCapability (string capability)
 		{
-			return State.HasValue(capability);
+			return _capabilities.Any(x=>x.Type.Equals(capability,StringComparison.OrdinalIgnoreCase));
 		}
 	}
 }
