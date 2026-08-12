@@ -36,10 +36,10 @@ namespace DeviceSimulator.API.Migrations
                     DeviceEntityId = table.Column<Guid>(type: "uuid", nullable: false),
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Type = table.Column<int>(type: "integer", nullable: false),
+                    Type = table.Column<string>(type: "text", nullable: false),
                     Range_Min = table.Column<int>(type: "integer", nullable: true),
                     Range_Max = table.Column<int>(type: "integer", nullable: true),
-                    Options = table.Column<List<JsonElement>>(type: "jsonb[]", nullable: true)
+                    Options = table.Column<List<JsonElement>>(type: "jsonb", nullable: true)
                 },
                 constraints: table =>
                 {

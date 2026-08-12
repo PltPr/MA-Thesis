@@ -97,7 +97,7 @@ namespace DeviceSimulator.API.Devices.Features.AddDevice
 					.Select(x => new CapabilityIntegrationModel(
 					x.Type.ToString(),
 					x.Range is null ? null :
-					new ValueRangeIntegrationModel(x.Range.Min, x.Range.Max))).ToList());
+					new ValueRangeIntegrationModel(x.Range.Min, x.Range.Max),x.Options)).ToList());
 
 			await _publisher.Publish(integrationEvent, cancellationToken);
 		}

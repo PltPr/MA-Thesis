@@ -5,7 +5,7 @@ namespace SmartHome.Application.Data
 {
 	public interface ISmartHomeDbContext
 	{
-		DbSet<Device> Devices { get; }
+		DbSet<SmartHome.Domain.Device.Models.Device> Devices { get; }
 		Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 	}
 }

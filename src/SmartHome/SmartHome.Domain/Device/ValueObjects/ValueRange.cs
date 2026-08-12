@@ -15,7 +15,7 @@
 			Max = max;
 		}
 
-		public static ValueRange Create(int min,int max)
+		public static ValueRange Of(int min,int max)
 		{
 			return new ValueRange(min,max);
 		}

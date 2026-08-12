@@ -23,7 +23,7 @@ namespace SmartHome.Domain.Device.Models
 			Options = options;
 		}
 
-		public static Capability Create(
+		public static Capability Of(
 		string type,
 		ValueRange? range,
 		List<JsonElement>? options)

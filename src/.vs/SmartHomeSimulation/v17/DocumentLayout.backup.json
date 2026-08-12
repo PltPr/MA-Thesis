@@ -3,40 +3,123 @@
   "WorkspaceRootPath": "C:\\MA-Thesis\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\setdevicecapabilityconsumer\\setdevicecapabilityconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\setdevicecapabilityconsumer\\setdevicecapabilityconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\Migrations\\20260812141622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartHome\\SmartHome.Infrastructure\\Data\\Migrations\\20260812141622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\masstransitcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\masstransitcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.infrastructure\\data\\configurations\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|solutionrelative:smarthome\\smarthome.infrastructure\\data\\configurations\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\setdevicecapability\\setdevicecapabilityhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\setdevicecapability\\setdevicecapabilityhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\data\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\data\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\commands\\setdevicecapabilityintegrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\commands\\setdevicecapabilityintegrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\registerdevice\\registerdevicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\registerdevice\\registerdevicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\idevicecommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\idevicecommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Migrations\\20260812135446_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartHome\\SmartHome.Infrastructure\\Migrations\\20260812135446_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.domain\\device\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|solutionrelative:smarthome\\smarthome.domain\\device\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks\\buildingblocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{320A87B5-A16E-4527-8F9A-E4FA5C1B8C8A}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\buildingblocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devicesimulator.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devicesimulator.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\smarthome.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\smarthome.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.api\\smarthome.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|solutionrelative:smarthome\\smarthome.api\\smarthome.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\consumers\\deviceregisteredconsumer\\deviceregisteredconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\consumers\\deviceregisteredconsumer\\deviceregisteredconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.infrastructure\\data\\smarthomedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|solutionrelative:smarthome\\smarthome.infrastructure\\data\\smarthomedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.domain\\device\\models\\devicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|solutionrelative:smarthome\\smarthome.domain\\device\\models\\devicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|solutionrelative:smarthome\\smarthome.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.infrastructure\\data\\smarthomedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E429A94-1509-4805-AEE8-B4D84D0414EE}|SmartHome\\SmartHome.Infrastructure\\SmartHome.Infrastructure.csproj|solutionrelative:smarthome\\smarthome.infrastructure\\data\\smarthomedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Migrations\\20260812125659_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DeviceSimulator\\DeviceSimulator.API\\Migrations\\20260812125659_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\adddevice\\adddevicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\adddevice\\adddevicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\masstransitcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\masstransitcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|solutionrelative:smarthome\\smarthome.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|solutionrelative:smarthome\\smarthome.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F804FA8E-ECEA-419F-A66B-415302A23053}|SmartHome\\SmartHome.API\\SmartHome.API.csproj|solutionrelative:smarthome\\smarthome.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\device\\commands\\setdevicecapability\\setdevicecapabilityhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\device\\commands\\setdevicecapability\\setdevicecapabilityhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.domain\\device\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|solutionrelative:smarthome\\smarthome.domain\\device\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\e-shop\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.application\\data\\ismarthomedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F32BEA4-7F2A-4BB9-A06B-3E26898C7225}|SmartHome\\SmartHome.Application\\SmartHome.Application.csproj|solutionrelative:smarthome\\smarthome.application\\data\\ismarthomedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.domain\\device\\models\\capability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|solutionrelative:smarthome\\smarthome.domain\\device\\models\\capability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|c:\\ma-thesis\\src\\smarthome\\smarthome.domain\\device\\valueobjects\\valuerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3993EC6-F0FA-4AF8-A69B-EF41B912A07B}|SmartHome\\SmartHome.Domain\\SmartHome.Domain.csproj|solutionrelative:smarthome\\smarthome.domain\\device\\valueobjects\\valuerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\features\\setdevicecapabilityconsumer\\setdevicecapabilityconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\features\\setdevicecapabilityconsumer\\setdevicecapabilityconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|c:\\ma-thesis\\src\\buildingblocks\\buildingblocks.messaging\\contracts\\commands\\setdevicecapabilityintegrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4048124B-5E7B-44BF-A61E-F5F041C758D9}|BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj|solutionrelative:buildingblocks\\buildingblocks.messaging\\contracts\\commands\\setdevicecapabilityintegrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|c:\\ma-thesis\\src\\devicesimulator\\devicesimulator.api\\devices\\domain\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444C3BA7-57B4-4713-A615-F1CCE3550184}|DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj|solutionrelative:devicesimulator\\devicesimulator.api\\devices\\domain\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,63 +129,383 @@
       "DocumentGroups": [
         {
           "DockedWidth": 724,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SetDeviceCapabilityConsumer.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
-              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
-              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "20260812141622_init.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\Migrations\\20260812141622_init.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\Data\\Migrations\\20260812141622_init.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\Migrations\\20260812141622_init.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\Data\\Migrations\\20260812141622_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T11:56:52.773Z",
+              "WhenOpened": "2026-08-12T14:16:22.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeviceSimulator.API",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\DeviceSimulator.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T13:49:46.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SmartHome.Application",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\SmartHome.Application.csproj",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\SmartHome.Application.csproj",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\SmartHome.Application.csproj",
+              "RelativeToolTip": "SmartHome\\SmartHome.Application\\SmartHome.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T13:49:40.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:12:19.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeviceRegisteredConsumer.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\Consumers\\DeviceRegisteredConsumer\\DeviceRegisteredConsumer.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Device\\Commands\\Consumers\\DeviceRegisteredConsumer\\DeviceRegisteredConsumer.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\Consumers\\DeviceRegisteredConsumer\\DeviceRegisteredConsumer.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Application\\Device\\Commands\\Consumers\\DeviceRegisteredConsumer\\DeviceRegisteredConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:40:45.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.API\\Program.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\Program.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:36:27.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDeviceHandler.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\RegisterDevice\\RegisterDeviceHandler.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Device\\Commands\\RegisterDevice\\RegisterDeviceHandler.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\RegisterDevice\\RegisterDeviceHandler.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Application\\Device\\Commands\\RegisterDevice\\RegisterDeviceHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:15:01.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DeviceConfiguration.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\Configurations\\DeviceConfiguration.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\Data\\Configurations\\DeviceConfiguration.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\Configurations\\DeviceConfiguration.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\Data\\Configurations\\DeviceConfiguration.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:53:46.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceConfiguration.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Data\\DeviceConfiguration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:58:44.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuildingBlocks",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "ToolTip": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "RelativeToolTip": "BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T13:49:54.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SmartHome.API",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\SmartHome.API.csproj",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.API\\SmartHome.API.csproj",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\SmartHome.API.csproj",
+              "RelativeToolTip": "SmartHome\\SmartHome.API\\SmartHome.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T13:49:19.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260812135446_init.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Migrations\\20260812135446_init.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\Migrations\\20260812135446_init.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Migrations\\20260812135446_init.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\Migrations\\20260812135446_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:54:46.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:31:55.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T10:53:54.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SmartHomeDbContext.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T10:56:15.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeviceState.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\Models\\DeviceState.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Domain\\Device\\Models\\DeviceState.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\Models\\DeviceState.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Domain\\Device\\Models\\DeviceState.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:18:37.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.API\\DependencyInjection.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\DependencyInjection.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.API\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:38:33.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.API\\appsettings.json",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.API\\appsettings.json",
+              "RelativeToolTip": "SmartHome\\SmartHome.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T12:48:58.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddDeviceHandler.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\AddDevice\\AddDeviceHandler.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\AddDevice\\AddDeviceHandler.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\AddDevice\\AddDeviceHandler.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\AddDevice\\AddDeviceHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:50:06.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260812125659_init.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Migrations\\20260812125659_init.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Migrations\\20260812125659_init.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Migrations\\20260812125659_init.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Migrations\\20260812125659_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:56:59.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "MassTransitCommandPublisher.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\MassTransitCommandPublisher.cs",
               "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Device\\Commands\\MassTransitCommandPublisher.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\MassTransitCommandPublisher.cs",
               "RelativeToolTip": "SmartHome\\SmartHome.Application\\Device\\Commands\\MassTransitCommandPublisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T11:44:56.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDeviceCommandPublisher.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\IDeviceCommandPublisher.cs",
-              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Device\\Commands\\IDeviceCommandPublisher.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\IDeviceCommandPublisher.cs",
-              "RelativeToolTip": "SmartHome\\SmartHome.Application\\Device\\Commands\\IDeviceCommandPublisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABgAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "SetDeviceCapabilityHandler.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIAwwBIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T11:42:36.33Z",
+              "WhenOpened": "2026-08-12T10:56:47.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\e-shop\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\e-shop\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\e-shop\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\..\\e-shop\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:32:31.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISmartHomeDbContext.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Data\\ISmartHomeDbContext.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Data\\ISmartHomeDbContext.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Data\\ISmartHomeDbContext.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Application\\Data\\ISmartHomeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:30:15.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Capability.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\Models\\Capability.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Domain\\Device\\Models\\Capability.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\Models\\Capability.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Domain\\Device\\Models\\Capability.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:18:56.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\Models\\Device.cs",
               "RelativeDocumentMoniker": "SmartHome\\SmartHome.Domain\\Device\\Models\\Device.cs",
               "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\Models\\Device.cs",
               "RelativeToolTip": "SmartHome\\SmartHome.Domain\\Device\\Models\\Device.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFsAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFsAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T11:15:22.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
+              "Title": "ValueRange.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\ValueObjects\\ValueRange.cs",
+              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Domain\\Device\\ValueObjects\\ValueRange.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Domain\\Device\\ValueObjects\\ValueRange.cs",
+              "RelativeToolTip": "SmartHome\\SmartHome.Domain\\Device\\ValueObjects\\ValueRange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:18:50.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SetDeviceCapabilityConsumer.cs",
+              "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
+              "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
+              "ToolTip": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
+              "RelativeToolTip": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Features\\SetDeviceCapabilityConsumer\\SetDeviceCapabilityConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T11:56:52.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "SetDeviceCapabilityIntegrationCommand.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Commands\\SetDeviceCapabilityIntegrationCommand.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.Messaging\\Contracts\\Commands\\SetDeviceCapabilityIntegrationCommand.cs",
@@ -115,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 29,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\MA-Thesis\\src\\DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Device.cs",
               "RelativeDocumentMoniker": "DeviceSimulator\\DeviceSimulator.API\\Devices\\Domain\\Models\\Device.cs",
@@ -124,53 +527,6 @@
               "ViewState": "AgIAACwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T11:02:06.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SetDeviceCapabilityHandler.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
-              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
-              "RelativeToolTip": "SmartHome\\SmartHome.Application\\Device\\Commands\\SetDeviceCapability\\SetDeviceCapabilityHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wB4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T10:56:47.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SmartHomeDbContext.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
-              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
-              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\Data\\SmartHomeDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T10:56:15.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\MA-Thesis\\src\\SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "SmartHome\\SmartHome.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T10:53:54.201Z",
               "EditorCaption": ""
             }
           ]

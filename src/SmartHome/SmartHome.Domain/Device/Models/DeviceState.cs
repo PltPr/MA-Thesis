@@ -14,7 +14,7 @@ namespace SmartHome.Domain.Device.Models
 		{
 			_values = new Dictionary<string, JsonElement> (values);
 		}
-		public static DeviceState Create(
+		public static DeviceState Of(
 		IReadOnlyDictionary<string, JsonElement> values)
 		{
 			ArgumentNullException.ThrowIfNull(values);

@@ -10,7 +10,7 @@ namespace SmartHome.Infrastructure.Data.Configurations
 	{
 		public void Configure(EntityTypeBuilder<Device> builder)
 		{
-			var dictionaryComparer = new ValueComparer<Dictionary<string, JsonElement>>(
+			var dictionaryComparer = new ValueComparer<IReadOnlyDictionary<string, JsonElement>>(
 				(a, b) => a!.SequenceEqual(b!),
 				a => a.Aggregate(0,
 				(hash, pair) =>
@@ -41,7 +41,7 @@ namespace SmartHome.Infrastructure.Data.Configurations
 				state.Property(x => x.Values)
 					.HasConversion(
 					v => JsonSerializer.Serialize(v, (JsonSerializerOptions?)null),
-					v => JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(v, (JsonSerializerOptions?)null)!)
+					v => JsonSerializer.Deserialize<IReadOnlyDictionary<string, JsonElement>>(v, (JsonSerializerOptions?)null)!)
 					.HasColumnName("State")
 					.HasColumnType("jsonb")
 					.Metadata.SetValueComparer(dictionaryComparer);
@@ -56,6 +56,9 @@ namespace SmartHome.Infrastructure.Data.Configurations
 				capability.OwnsOne(x => x.Range);
 
 				capability.Property(x => x.Options)
+					.HasConversion(
+					v=> v==null ? null : JsonSerializer.Serialize(v,(JsonSerializerOptions?)null),
+					v=>v==null ? null : JsonSerializer.Deserialize<List<JsonElement>>(v,(JsonSerializerOptions)null!))
 					.HasColumnType("jsonb");
 			});
 

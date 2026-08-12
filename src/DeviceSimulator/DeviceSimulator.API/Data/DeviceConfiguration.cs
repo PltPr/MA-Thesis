@@ -34,6 +34,9 @@ namespace DeviceSimulator.API.Data
 				capabilities.Property(x => x.Type)
 					.HasConversion<string>();
 				capabilities.Property(x => x.Options)
+				.HasConversion(
+					v=> v == null ? null :JsonSerializer.Serialize(v,(JsonSerializerOptions?)null),
+					v=> v== null ? null : JsonSerializer.Deserialize<List<JsonElement>>(v, (JsonSerializerOptions?)null)!)
 					.HasColumnType("jsonb");
 			});
 		}

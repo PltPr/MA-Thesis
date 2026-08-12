@@ -14,6 +14,8 @@ namespace DeviceSimulator.API.Data
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDBContext).Assembly);
+
+			base.OnModelCreating(modelBuilder);
 		}
 	}
 }

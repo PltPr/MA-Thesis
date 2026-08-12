@@ -1,5 +1,4 @@
 ﻿using BuildingBlocks.Messaging.Contracts.Commands;
-using SmartHome.Application.Device.Commands.SetDeviceCapability;
 
 namespace SmartHome.Application.Device.Commands
 {

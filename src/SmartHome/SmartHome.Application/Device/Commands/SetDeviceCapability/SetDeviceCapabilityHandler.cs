@@ -3,10 +3,9 @@ using BuildingBlocks.Exceptions;
 using BuildingBlocks.Messaging.Contracts.Commands;
 using BuildingBlocks.Messaging.Contracts.Events;
 using SmartHome.Application.Data;
-using SmartHome.Application.Device.Events.IntegrationEvents;
 using System.Text.Json;
 
-namespace SmartHome.Application.Device.Commands.SetDeviceCapability
+namespace SmartHome.Application.Device.Commands.SetDeviceCapabilityCommand
 {
 	public record SetDeviceCapabilityCommand(Guid DeviceId, string Capability, JsonElement Value) :ICommand<SetDeviceCapabilityResult>;
 	public record SetDeviceCapabilityResult(bool IsSuccess);
@@ -31,7 +30,7 @@ namespace SmartHome.Application.Device.Commands.SetDeviceCapability
 			}
 
 			await SendSetCapabilityIntegrationCommand(command, cancellationToken);
-			device.SetCapability(command.Capability,command.Value);
+			device.UpdateCapability(command.Capability,command.Value);
 			await _context.SaveChangesAsync(cancellationToken);
 
 			return new SetDeviceCapabilityResult(true);
