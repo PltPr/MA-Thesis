@@ -4,7 +4,7 @@ using DeviceSimulator.API.Devices.Domain.Factories;
 using FluentValidation;
 using System.Text.Json;
 
-namespace DeviceSimulator.API.Devices.Features.SetDeviceState
+namespace DeviceSimulator.API.Devices.Features.SetDeviceCapability
 {
 	public record SetDeviceCapabilityCommand(Guid DeviceId, CapabilityType Type, JsonElement Value) : ICommand<SetDeviceCapabilityResult>;
 	public record SetDeviceCapabilityResult(bool IsSuccess);

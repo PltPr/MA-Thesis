@@ -10,5 +10,6 @@ builder.Services.AddApplicationServices(builder.Configuration)
 
 var app = builder.Build();
 
+app.UseApiServices();
 
 app.Run();

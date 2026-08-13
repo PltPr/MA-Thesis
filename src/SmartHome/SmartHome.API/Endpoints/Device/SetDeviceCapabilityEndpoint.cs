@@ -1,8 +1,12 @@
-﻿using System.Text.Json;
+﻿using Carter;
+using Mapster;
+using MediatR;
+using SmartHome.Application.Device.Commands.SetDeviceCapabilityCommand;
+using System.Text.Json;
 
-namespace DeviceSimulator.API.Devices.Features.SetDeviceCapability
+namespace SmartHome.API.Endpoints.Device
 {
-	public record SetDeviceCapabilityRequest(Guid DeviceId, CapabilityType Type, JsonElement Value);
+	public record SetDeviceCapabilityRequest(Guid DeviceId,string Type,JsonElement Value);
 	public record SetDeviceCapabilityResponse(bool IsSuccess);
 	public class SetDeviceCapabilityEndpoint : ICarterModule
 	{
@@ -14,7 +18,7 @@ namespace DeviceSimulator.API.Devices.Features.SetDeviceCapability
 				var result = await sender.Send(command);
 				var response = result.Adapt<SetDeviceCapabilityResponse>();
 
-				return Results.Ok(response);
+				return Results.Ok(result);
 			})
 				.WithName("SetDeviceCapability");
 		}

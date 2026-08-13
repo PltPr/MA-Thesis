@@ -7,7 +7,7 @@ using System.Text.Json;
 
 namespace SmartHome.Application.Device.Commands.SetDeviceCapabilityCommand
 {
-	public record SetDeviceCapabilityCommand(Guid DeviceId, string Capability, JsonElement Value) :ICommand<SetDeviceCapabilityResult>;
+	public record SetDeviceCapabilityCommand(Guid DeviceId, string Type, JsonElement Value) :ICommand<SetDeviceCapabilityResult>;
 	public record SetDeviceCapabilityResult(bool IsSuccess);
 	public class SetDeviceCapabilityHandler : ICommandHandler<SetDeviceCapabilityCommand, SetDeviceCapabilityResult>
 	{
@@ -24,13 +24,13 @@ namespace SmartHome.Application.Device.Commands.SetDeviceCapabilityCommand
 			if (device == null) 
 				throw new NotFoundException("Device",command.DeviceId);
 
-			if(!device.HasCapability(command.Capability))
+			if(!device.HasCapability(command.Type))
 			{
 				return new SetDeviceCapabilityResult(false);
 			}
 
 			await SendSetCapabilityIntegrationCommand(command, cancellationToken);
-			device.UpdateCapability(command.Capability,command.Value);
+			device.UpdateCapability(command.Type,command.Value);
 			await _context.SaveChangesAsync(cancellationToken);
 
 			return new SetDeviceCapabilityResult(true);
@@ -38,7 +38,7 @@ namespace SmartHome.Application.Device.Commands.SetDeviceCapabilityCommand
 		}
 		private async Task SendSetCapabilityIntegrationCommand (SetDeviceCapabilityCommand command, CancellationToken cancellationToken)
 		{
-			var integrationCommand = new SetDeviceCapabilityIntegrationCommand(command.DeviceId, command.Capability, command.Value);
+			var integrationCommand = new SetDeviceCapabilityIntegrationCommand(command.DeviceId, command.Type, command.Value);
 			await _sender.Send(integrationCommand, cancellationToken);
 		}
 	}

@@ -1,8 +1,7 @@
 ﻿using BuildingBlocks.Messaging.Contracts.Commands;
-using DeviceSimulator.API.Devices.Features.SetDeviceState;
 using MassTransit;
 
-namespace DeviceSimulator.API.Devices.Features.SetDeviceCapabilityConsumer
+namespace DeviceSimulator.API.Devices.Features.SetDeviceCapability
 {
 	public class SetDeviceCapabilityConsumer : IConsumer<SetDeviceCapabilityIntegrationCommand>
 	{

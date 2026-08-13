@@ -1,10 +1,9 @@
 ﻿using BuildingBlocks.Messaging.Contracts.Events;
 using MassTransit;
 using MediatR;
-using SmartHome.Application.Device.Commands.RegisterDevice;
 using SmartHome.Domain.Device.Models;
 
-namespace SmartHome.Application.Device.Commands.Consumers.DeviceRegisteredConsumer
+namespace SmartHome.Application.Device.Commands.RegisterDevice
 {
 	public class DeviceRegisteredConsumer : IConsumer<DeviceRegisteredIntegrationEvent>
 	{
