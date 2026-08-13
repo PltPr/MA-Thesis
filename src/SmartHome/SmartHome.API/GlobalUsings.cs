@@ -1,0 +1,1 @@
+﻿global using DeviceModel = SmartHome.Domain.Device.Models.Device;
